@@ -185,17 +185,19 @@ export default function Discover() {
           border: '2px solid #9E9E9E24',
           boxShadow: ' 0px 4px 4px 0px #00000040',
         }}>
-        <Typography
-          sx={{
-            fontSize: '16px',
-            fontWeight: '600',
-            color: '#ff3951',
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
-          }}>
-          Show All Vehicles <ArrowRightAltIcon />
-        </Typography>
+        <Link href={'/main'}>
+          <Typography
+            sx={{
+              fontSize: '16px',
+              fontWeight: '600',
+              color: '#ff3951',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+            }}>
+            Show All Vehicles <ArrowRightAltIcon />
+          </Typography>
+        </Link>
       </Button>
     </>
   );
