@@ -44,7 +44,21 @@ export const cars = [
     h: '',
   },
 ];
-
+export const car = {
+  width: 300,
+  carId: 'hnd78ysdiuaha8927ssw',
+  name: 'Honda Accord Sedan',
+  transmision: 'Automatic',
+  location: 'Jakarta',
+  category: 'Premium',
+  currency: 'USD',
+  speed: '280/Kmh',
+  brand: 'Honda',
+  seat: 4,
+  cost: 199,
+  urlImage: '/image/honda_PNG10330.png',
+  height: 225,
+};
 export const recentCars = [
   {
     width: 300,

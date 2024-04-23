@@ -32,7 +32,7 @@ export default function Footer() {
         },
         justifyContent: 'space-evenly',
         bgcolor: '#1A0000',
-        mt: '100px',
+        mt: '0',
         mb: '0',
         alignItems: 'center',
         flexWrap: 'wrap',
